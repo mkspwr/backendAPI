@@ -1,19 +1,14 @@
 const express = require("express");
+//var http = require('http');
 const bodyParser = require("body-parser");
 const cors = require("cors");
-
 const app = express();
-
 var corsOptions = {
     origin: "http://kanchankitchen.azurewebsites.net"
 };
-
 app.use(cors(corsOptions));
-
 app.use(bodyParser.json());
-
 app.use(bodyParser.urlencoded({ extended: true}));
-
 const db = require("./app/models");
 db.mongoose
  .connect(db.url, {
@@ -27,12 +22,13 @@ db.mongoose
     console.log("Cannot connect to the database!", err);
     process.exit();
 });
+var path = require('path');
 app.use(express.static('public'));
 app.use(express.static(path.join(root, '/')));
 
-app.get("/", (req, res) => {
-    res.json({ message: "Welcome to backendAPI"});
-});
+// app.get("/", (req, res) => {
+//     res.json({ message: "Welcome to backendAPI"});
+// });
 
 const PORT = process.env.PORT || 8080;
 
