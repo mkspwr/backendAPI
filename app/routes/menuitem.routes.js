@@ -9,7 +9,7 @@ module.exports = app => {
     // Retrieve all Tutorials
     router.get("/", menuitem.findAll);
 
-    router.get("/", menuitem.findByshort_name);
+    router.get("/id", menuitem.findByshort_name);
   
     // Retrieve all published Tutorials
     router.get("/category", menuitem.findByCategory);
