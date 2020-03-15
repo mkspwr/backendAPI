@@ -47,20 +47,37 @@ exports.findAll = (req, res) => {
       });
 };
 
+
 exports.findOne = (req, res) => {
-    const c_id = req.params.id;
-    var condition = c_id ? { c_id: { $regex: new RegExp(c_id), $options: "i" } } : {};
-  
-    categoriesdb.find(condition)
-      .then(data => {
-        res.send(data);
-      })
-      .catch(err => {
-        res.status(500).send({
-          message:
-            err.message || "Some error occurred while retrieving tutorials."
-        });
+  const c_id = req.params.id;
+  var condition = c_id ? { c_id: { $regex: new RegExp(c_id), $options: "i" } } : {};
+
+  categoriesdb.find(condition)
+    .then(data => {
+      res.send(data);
+    })
+    .catch(err => {
+      res.status(500).send({
+        message:
+          err.message || "Some error occurred while retrieving tutorials."
       });
+    });
+};
+
+exports.findByshort_name = (req, res) => {
+  const short_name = req.params.id;
+  var condition = short_name ? { short_name: { $regex: new RegExp(Short_name), $options: "i" } } : {};
+
+  categoriesdb.find(condition)
+    .then(data => {
+      res.send(data);
+    })
+    .catch(err => {
+      res.status(500).send({
+        message:
+          err.message || "Some error occurred while retrieving tutorials."
+      });
+    });
 };
 
 // exports.findOne = (req,res) => {

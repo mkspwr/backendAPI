@@ -92,6 +92,22 @@ exports.findOne = (req,res) => {
       });
 };
 
+exports.findByshort_name = (req,res) => {
+  const short_name = req.params.id;
+
+  var condition = short_name ? { short_name: { $regex: new RegExp(short_name), $options: "i" } } : {};
+
+  menuitemdb.find(condition)
+    .then(data => {
+      res.send(data);
+    })
+    .catch(err => {
+      res.status(500).send({
+        message:
+          err.message || "Some error occurred while retrieving tutorials."
+      });
+    });
+};
 exports.update = (req, res) => {
     if (!req.body) {
         return res.status(400).send({
