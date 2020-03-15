@@ -5,7 +5,7 @@ const cors = require("cors");
 const app = express();
 
 var corsOptions = {
-    origin: "http://localhost:5000"
+    origin: "http://kanchankitchen.azurewebsites.net"
 };
 
 app.use(cors(corsOptions));
@@ -27,6 +27,8 @@ db.mongoose
     console.log("Cannot connect to the database!", err);
     process.exit();
 });
+app.use(express.static('public'));
+app.use(express.static(path.join(root, '/')));
 
 app.get("/", (req, res) => {
     res.json({ message: "Welcome to backendAPI"});
