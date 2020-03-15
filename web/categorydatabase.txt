@@ -1,0 +1,67 @@
+[
+  {
+     "id": 01,
+     "name": "lunch",
+     "short-name: "L",
+     "special-instructions": "jhkjhlkjklj......kjjlk",
+     "url": "http//localhost/api/menutimes"
+  }
+
+
+{
+     "id": 02,
+     "name": "breakfast",
+     "short-name: "B",
+     "special-instructions": "jhkjhlkjklj......kjjlk",
+     "url": "http//localhost/api/menutimes"
+  }
+{
+     "id": 03,
+     "name": "dinner",
+     "short-name: "D",
+     "special-instructions": "jhkjhlkjklj......kjjlk",
+     "url": "http//localhost/api/menutimes"
+  }
+{
+     "id": 04,
+     "name": "snacks",
+     "short-name: "S",
+     "special-instructions": "jhkjhlkjklj......kjjlk",
+     "url": "http//localhost/api/menutimes"
+  }
+{
+     "id": 05,
+     "name": "fruits",
+     "short-name: "F",
+     "special-instructions": "jhkjhlkjklj......kjjlk",
+     "url": "http//localhost/api/menutimes"
+  }
+{
+     "id": 06,
+     "name": "thali",
+     "short-name: "T",
+     "special-instructions": "jhkjhlkjklj......kjjlk",
+     "url": "http//localhost/api/menutimes"
+  }
+{
+     "id": 07,
+     "name": "grownUpFavorite",
+     "short-name: "G",
+     "special-instructions": "jhkjhlkjklj......kjjlk",
+     "url": "http//localhost/api/menutimes"
+  }
+{
+     "id": 08,
+     "name": "KidsMeal",
+     "short-name: "K",
+     "special-instructions": "jhkjhlkjklj......kjjlk",
+     "url": "http//localhost/api/menutimes"
+  }
+{
+     "id": 09,
+     "name": "sweets",
+     "short-name: "S",
+     "special-instructions": "jhkjhlkjklj......kjjlk",
+     "url": "http//localhost/api/menutimes"
+  }
+]

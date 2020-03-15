@@ -1,0 +1,227 @@
+[
+  {
+    "id": 001,
+    "short-name": "L1",
+    "category-short-name": "L",
+    "name": "chole",
+    "url": "http://localhost8080/api/menuitems"
+  }
+ 
+  {
+    "id": 002,
+    "short-name": "L2",
+    "category-short-name": "L",
+    "name": "mix-veg",
+    "url": "http://localhost8080/api/menuitems"
+  }
+
+  {
+    "id": 003,
+    "short-name": "L3",
+    "category-short-name": "L",
+    "name": "chole",
+    "url": "http://localhost8080/api/menuitems"
+  }
+
+  {
+    "id": 004,
+    "short-name": "L4",
+    "category-short-name": "L",
+    "name": "chole",
+    "url": "http://localhost8080/api/menuitems"
+  }
+
+  {
+    "id": 005,
+    "short-name": "B1",
+    "category-short-name": "B",
+    "name": "chole",
+    "url": "http://localhost8080/api/menuitems"
+  }
+
+  {
+    "id": 006,
+    "short-name": "B2",
+    "category-short-name": "B",
+    "name": "chole",
+    "url": "http://localhost8080/api/menuitems"
+  }
+
+  {
+    "id": 007,
+    "short-name": "B2",
+    "category-short-name": "B",
+    "name": "chole",
+    "url": "http://localhost8080/api/menuitems"
+  }
+
+  {
+    "id": 008,
+    "short-name": "B3",
+    "category-short-name": "B",
+    "name": "chole",
+    "url": "http://localhost8080/api/menuitems"
+  }
+
+  {
+    "id": 009,
+    "short-name": "D1",
+    "category-short-name": "D",
+    "name": "chole",
+    "url": "http://localhost8080/api/menuitems"
+  }
+
+  {
+    "id": 010,
+    "short-name": "D2",
+    "category-short-name": "D",
+    "name": "chole",
+    "url": "http://localhost8080/api/menuitems"
+  }
+
+  {
+    "id": 011,
+    "short-name": "D3",
+    "category-short-name": "D",
+    "name": "chole",
+    "url": "http://localhost8080/api/menuitems"
+  }
+
+  {
+    "id": 012,
+    "short-name": "S1",
+    "category-short-name": "S",
+    "name": "chole",
+    "url": "http://localhost8080/api/menuitems"
+  }
+
+  {
+    "id": 013,
+    "short-name": "S2",
+    "category-short-name": "S",
+    "name": "chole",
+    "url": "http://localhost8080/api/menuitems"
+  }
+
+  {
+    "id": 014,
+    "short-name": "T1",
+    "category-short-name": "T",
+    "name": "chole",
+    "url": "http://localhost8080/api/menuitems"
+  }
+
+  {
+    "id": 015,
+    "short-name": "T2",
+    "category-short-name": "T",
+    "name": "chole",
+    "url": "http://localhost8080/api/menuitems"
+  }
+
+  {
+    "id": 016,
+    "short-name": "F1",
+    "category-short-name": "F",
+    "name": "chole",
+    "url": "http://localhost8080/api/menuitems"
+  }
+
+  {
+    "id": 017,
+    "short-name": "F2",
+    "category-short-name": "F",
+    "name": "chole",
+    "url": "http://localhost8080/api/menuitems"
+  }
+
+  {
+    "id": 018,
+    "short-name": "F3",
+    "category-short-name": "F",
+    "name": "chole",
+    "url": "http://localhost8080/api/menuitems"
+  }
+
+  {
+    "id": 019,
+    "short-name": "G1",
+    "category-short-name": "G",
+    "name": "chole",
+    "url": "http://localhost8080/api/menuitems"
+  }
+
+  {
+    "id": 020,
+    "short-name": "G2",
+    "category-short-name": "G",
+    "name": "chole",
+    "url": "http://localhost8080/api/menuitems"
+  }
+
+  {
+    "id": 021,
+    "short-name": "G3",
+    "category-short-name": "G",
+    "name": "chole",
+    "url": "http://localhost8080/api/menuitems"
+  }
+
+  {
+    "id": 022,
+    "short-name": "K1",
+    "category-short-name": "K",
+    "name": "chole",
+    "url": "http://localhost8080/api/menuitems"
+  }
+
+  {
+    "id": 023,
+    "short-name": "K2",
+    "category-short-name": "K",
+    "name": "chole",
+    "url": "http://localhost8080/api/menuitems"
+  }
+
+  {
+    "id": 024,
+    "short-name": "K3",
+    "category-short-name": "K",
+    "name": "chole",
+    "url": "http://localhost8080/api/menuitems"
+  }
+
+  {
+    "id": 025,
+    "short-name": "S1",
+    "category-short-name": SL",
+    "name": "chole",
+    "url": "http://localhost8080/api/menuitems"
+  }
+
+  {
+    "id": 026,
+    "short-name": "S1",
+    "category-short-name": "S",
+    "name": "chole",
+    "url": "http://localhost8080/api/menuitems"
+  }
+
+  {
+    "id": 027,
+    "short-name": "S2",
+    "category-short-name": "S",
+    "name": "chole",
+    "url": "http://localhost8080/api/menuitems"
+  }
+
+  {
+    "id": 028,
+    "short-name": "S3",
+    "category-short-name": "S",
+    "name": "chole",
+    "url": "http://localhost8080/api/menuitems"
+  }
+
+ 
+]
