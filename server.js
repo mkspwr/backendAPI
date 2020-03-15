@@ -26,9 +26,9 @@ var path = require('path');
 app.use(express.static('public'));
 app.use(express.static(path.join(root, '/')));
 
-// app.get("/", (req, res) => {
-//     res.json({ message: "Welcome to backendAPI"});
-// });
+app.get("/", (req, res) => {
+    res.json({ message: "Welcome to backendAPI"});
+});
 
 const PORT = process.env.PORT || 8080;
 
