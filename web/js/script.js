@@ -39,14 +39,14 @@ var homeHtml = "snippets/home-snippet.html";
 
 
 var allCategoriesUrl =
-   "http://localhost:8080/api/categories";
+   "http://kanchankitchen.azurewebsites.net/api/categories";
 var categoriesTitleHtml = "snippets/categories-title-snippet.html";
 var categoryHtml = "snippets/category-snippet.html";
 // var menuItemsUrl =
 //   "https://davids-restaurant.herokuapp.com/menu_items.json?category=";
 
   var menuItemsUrl =
-  "http://localhost:8080/api/menuitems/category?category=";
+  "http://kanchankitchen.azurewebsites.net/api/menuitems/category?category=";
 var menuItemsTitleHtml = "snippets/menu-items-title.html";
 var menuItemHtml = "snippets/menu-item.html";
 
